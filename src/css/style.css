@@ -67,13 +67,14 @@ footer{
     margin-bottom: 1em;
 }
 #email, #password{
-    text-align: left;
-    display: block;
-    border-top: 30px solid (--color-grey);
+   #email, #password{
+    width: 380px;
+    height: 40px;
+    border: 2px solid var(--color-grey);
     border-radius: 5px;
-    font-size: 15px;
-    color:var(--color-grey2);
-    width: 400px;
+    margin-bottom: 25px;
+    margin-left: 10px;
+
 }
 .email{
     text-align-last: left;
