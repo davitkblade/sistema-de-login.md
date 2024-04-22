@@ -14,12 +14,13 @@
 }
 
 body {
-    display: flex;
+   display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
-    text-align: center;
+    width: 100vw;
+    height: 100vh;
 }
+
 
 img {
     width: 160px;
