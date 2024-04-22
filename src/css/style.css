@@ -21,7 +21,6 @@ body {
     text-align: center;
 }
 
-
 img {
     width: 160px;
 }
@@ -30,7 +29,7 @@ img {
     padding-bottom: 6px;
 }
 
-.comeco{
+.começo{
     color: var(--color-grey);
 }
 
@@ -68,14 +67,13 @@ footer{
     margin-bottom: 1em;
 }
 #email, #password{
-   #email, #password{
-    width: 380px;
-    height: 40px;
-    border: 2px solid var(--color-grey);
+    text-align: left;
+    display: block;
+    border-top: 30px solid (--color-grey);
     border-radius: 5px;
-    margin-bottom: 25px;
-    margin-left: 10px;
-
+    font-size: 15px;
+    color:var(--color-grey2);
+    width: 400px;
 }
 .email{
     text-align-last: left;
